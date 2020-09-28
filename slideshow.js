@@ -15,11 +15,12 @@ showFiles = () => {
 
             //Create new image element:
             let element = document.createElement('iframe');
-            element.src = 'file:///home/developer/' + imagePath;
+            //element.src = 'file:///home/developer/' + imagePath;
+            element.src = '/home/developer/' + imagePath;
             element.style.maxHeight = '100%';
             element.style.maxWidth = '100%';
             element.id = 'imege_' + idx;
-            element.crossOrigin = 'Anonymous';
+            //element.crossOrigin = 'Anonymous';
 
             //Remove already existing image:
             if (idx > 0) imagesContainer.removeChild(imagesContainer.childNodes[0]);
