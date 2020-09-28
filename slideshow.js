@@ -14,7 +14,7 @@ showFiles = () => {
             console.log(imagePath);
 
             //Create new image element:
-            let element = document.createElement('img');
+            let element = document.createElement('iframe');
             element.src = 'file:///home/developer/' + imagePath;
             element.style.maxHeight = '100%';
             element.style.maxWidth = '100%';
