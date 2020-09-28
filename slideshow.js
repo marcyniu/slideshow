@@ -15,7 +15,7 @@ showFiles = () => {
 
             //Create new image element:
             let element = document.createElement('img');
-            element.src = '/home/developer/' + imagePath;
+            element.src = 'file:///home/developer/' + imagePath;
             element.style.maxHeight = '100%';
             element.style.maxWidth = '100%';
             element.id = 'imege_' + idx;
